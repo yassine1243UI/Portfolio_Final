@@ -1,0 +1,115 @@
+body{
+    margin: 5%;
+    margin-right: 20%;
+    font-size: large;
+    background-color: #1c197dc4;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.Banniere{
+    margin-top: -50px;
+    padding: 5px;
+    background-color: bisque;
+    position: fixed;
+    width: 100%;
+    opacity: 0.4;
+    margin-left: -80px;
+    padding-left: 80px;
+}
+
+.Banniere a{
+    padding: 25px;
+}
+
+.Banniere:hover{
+    opacity: 5.0;
+}
+
+
+
+/* Applique un style aux éléments de la classe "Documentaion" */
+.Documentaion {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+
+/* Applique une marge en haut et en bas pour l'en-tête de la page */
+h3 {
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+/* Centre les images */
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Ajoute une marge et un fond gris pour les éléments avec la classe .Documentaion */
+.Documentaion {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  background-color: #f5f5f5;
+  padding: 20px;
+}
+
+/* Applique un style de boîte aux éléments avec la classe .Doc, .AP1, .AP2, .Stage, .Stage2 */
+.Doc, .AP1, .AP2, .Stage, .Stage2 {
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+/* Ajoute une couleur de fond et un style de texte à l'élément avec la classe .Vr */
+.Vr {
+  background-color: #f8f8f8;
+  font-style: italic;
+  font-size: 1.2em;
+  padding: 10px;
+}
+
+/* Ajoute une couleur de fond et un style de texte à l'élément h4 */
+h4 {
+  background-color: #ddd;
+  padding: 10px;
+  margin-top: 0;
+}
+
+
+  
+
+@media screen and (max-width: 916px) {
+
+    .Acceuil{
+        margin-right: -20%;
+    }
+
+    .Banniere{
+        margin-left: 2%;
+    }
+    .Contenue img{
+        display: none;
+    }
+
+    .Option{
+        flex-direction: column;
+    }
+
+    .Banniere{
+        display: flex;
+        flex-direction: column;
+        padding: 0%;
+        width: fit-content;
+        margin-left: -30px;
+        margin-top: 100px;
+        position: fixed;
+
+    }
+
+     .dis{
+        display: none;
+    }
+}
+

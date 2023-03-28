@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index.css">
+
+    <title>Pendu</title>
+</head>
+<body>
+    <h1> Pendu</h1>
+    <p>Trouve le mot cacher - Entrer une lettre a la fois! </p>
+    <div class="jeu">
+
+        <!-- Le pendu -->
+    <svg height='250' width="200" class="dessin-contenant">
+        <line  x1="60" y1="20" x2="140" y2="20"/>
+        <line  x1="60" y1="20" x2="60" y2="200"/>
+        <line  x1="0" y1="200" x2="130" y2="200"/>
+        <line  x1="140" y1="20" x2="140" y2="50"/>
+
+        
+        <!-- Le bonhome -->
+        <!-- La Tete -->
+        <circle cx="140" cy="70" r="20" class="dessin-partie"/>
+
+        <!-- Le Corps -->
+        <line  x1="140" y1="90" x2="140" y2="150" class="dessin-partie"/>
+
+        <!-- Les Bras -->
+        <line  x1="140" y1="120" x2="180" y2="100" class="dessin-partie"/>
+        <line  x1="140" y1="120" x2="100" y2="100" class="dessin-partie"/>
+
+        <!-- Les Jambes -->
+        <line  x1="140" y1="150" x2="170" y2="190" class="dessin-partie"/>
+        <line  x1="140" y1="150" x2="110" y2="190" class="dessin-partie"/>
+
+    </svg>
+
+    <div class="mauvaise-lettre">
+        Mauvaise Lettres : 
+        <div id="mauvaise-lettre"><span>a, e, i, o</span></div>
+    </div>
+
+    <div class="mot" id="mot">  
+        <span class="lettre">B</span>
+        <span class="lettre">o</span>
+        <span class="lettre">n</span>
+        <span class="lettre">j</span>
+        <span class="lettre">o</span>
+        <span class="lettre">u</span>
+        <span class="lettre">r</span> 
+    </div>
+    </div>
+    
+    <!-- Message final -->
+    <div class="popup-contenant" id="popup-contenant">
+        <div class="popup">
+            <h2 id="message-final">Bravo tu a gagné!</h2>
+            <button id="play">Rejouer</button>
+        </div>
+    </div>
+
+    <!-- Notification-->
+    <div class="Notification-contenant" id="Notification-contenant">
+        <p>Vous avez deja essayer cette lettre</p>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>

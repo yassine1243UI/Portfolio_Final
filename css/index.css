@@ -1,0 +1,448 @@
+body{
+    margin: 5%;
+    margin-right: 20%;
+    font-size: large;
+    background-color: #3f034ac4;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.Banniere{
+    margin-top: -50px;
+    padding: 5px;
+    background-color: bisque;
+    position: fixed;
+    width: 100%;
+    opacity: 0.4;
+}
+
+
+.Contenue{
+    display: flex;
+}
+
+.Acceuil{
+    flex-grow: 1;
+    margin-bottom: 100px;
+    background-color: aliceblue;
+    padding: 10px;
+    border-radius: 30px;
+    box-shadow: 30px -10px rgba(101,189,249,255);
+}
+
+.Banniere a{
+    padding: 25px;
+}
+
+.Banniere:hover{
+    opacity: 5.0;
+}
+
+.Option{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.Sisr{
+    margin-right: 10px;
+}
+
+.Pres{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: aliceblue;
+    padding: 10pt;
+    border-radius: 30px;
+    box-shadow: 30px -10px rgba(59,59,59,255);
+}
+
+.Bts{
+    margin-top: 200px;
+    margin-bottom: 100px;
+}
+
+.Bts h3{
+    color: rgb(236, 221, 54);
+}
+
+.Pres{
+    margin-bottom: 50px;
+}
+
+.Competence{
+    display: flex;
+    margin-top: 10%;
+    background-color: aliceblue;
+    padding: 10pt;
+    border-radius: 30px;
+    box-shadow: 30px -10px rgb(171, 51, 240);
+}
+
+.gauche{
+    width: 50%;
+    flex-grow: 1;
+} 
+
+.droite{
+    width: 50%;
+    margin: 0;
+    text-align: left;
+}
+
+ 
+ h1 {
+    text-align: center;
+    font-weight: 300;
+    color: rgb(236, 221, 54)
+ }
+ 
+ h1 span {
+    font-weight: 600;
+ }
+ 
+ .timeline-container {
+    width: 80%;
+    padding: 50px 0;
+    margin: 50px auto;
+    position: relative;
+    overflow: hidden;
+ }
+ .timeline-container:before { /*This is the line down the middle*/
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 50%;
+    margin-left: -1px;
+    width: 2px;
+    height: 100%;
+    background: #CCD1D9;
+    z-index: 1
+ }
+ .timeline-block {
+    width: -webkit-calc(50% + 8px);
+    width: -moz-calc(50% + 8px);
+    width: calc(50% + 8px);
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: flex;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -moz-box-pack: justify;
+    justify-content: space-between;
+    clear: both;
+ }
+ .timeline-block-right {
+    float: right;
+ }
+ .timeline-block-left {
+    float: left;
+    direction: rtl
+ }
+ .marker {
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    border: 2px solid #F5F7FA;
+    background: #4DD0E1;
+    margin-top: 10px;
+    z-index: 9999
+ }
+ .timeline-content {
+    width: 95%;
+    padding: 0 15px;
+    color: rgb(35, 32, 32)
+ }
+ .timeline-content h3 {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 25px;
+    font-weight: 500
+ }
+ .timeline-content span {
+    font-size: 15px;
+    color: rgb(236, 221, 54)
+ }
+ .timeline-content p {
+    font-size: 14px;
+    line-height: 1.5em;
+    word-spacing: 1px;
+    color: #888;
+ }
+ @media screen and (max-width: 768px) {
+    .timeline-container:before {
+       left: 8px;
+       width: 2px;
+    }
+    .timeline-block {
+       width: 100%;
+       margin-bottom: 30px;
+    }
+    .timeline-block-right {
+       float: none;
+    }
+    .timeline-block-left {
+       float: none;
+       direction: ltr;
+    }
+ }
+ 
+
+.HTML5{
+    margin: 10px;
+    margin-right: 200px;
+    text-align: right;
+    font-size: smaller;
+    border-radius: 30px;
+}
+
+.CSS3{
+    margin: 10px;
+    margin-right: 190px;
+    text-align: right;
+    border-radius: 30px;
+    padding-right: 10px;
+}
+
+.PHP{
+    margin: 10px;
+    margin-right: 190px;
+    text-align: right;
+    border-radius: 30px;
+    padding-right: 10px;
+}
+
+.JS{
+    margin: 10px;
+    margin-right: 190px;
+    text-align: right;
+    border-radius: 30px;
+    padding-right: 10px;
+}
+
+.React{
+    margin: 10px;
+    margin-right: 190px;
+    text-align: right;
+    border-radius: 30px;
+    padding-right: 10px;
+}
+
+.MySql{
+    margin: 10px;
+    margin-right: 190px;
+    text-align: right;
+    border-radius: 30px;
+    padding-right: 10px;
+}
+
+.Python{
+    margin: 10px;
+    margin-right: 220px;
+    text-align: right;
+    border-radius: 30px;
+    padding-right: 10px;
+}
+
+.Git{
+    margin: 10px;
+    margin-right: 220px;
+    text-align: right;
+    border-radius: 30px;
+    padding-right: 10px;
+}
+
+.C{
+    margin: 10px;
+    margin-right: 220px;
+    text-align: right;
+    border-radius: 30px;
+    padding-right: 10px;
+}
+
+.Word{
+
+    margin: 10px;
+    margin-right: 200px;
+    text-align: right;
+    border-radius: 30px;
+    padding-right: 10px;
+
+}
+
+.Ap1{
+    margin-top: 10%;
+    background-color: aliceblue;
+    padding: 10pt;
+    border-radius: 30px;
+    box-shadow: 30px -10px rgba(22,189,189,35);
+    
+}
+
+.Ap1 .description{
+    flex-grow: 1;
+    margin-top: -90px;
+    margin-left: 400px;
+    opacity: 0.0;
+    width: 400px;
+    height: 200px;
+    margin-top: -200px;
+    text-align: center;
+    
+}
+
+.Ap1 .description:hover{
+    opacity: 5.0;
+}
+
+.Ap1 .Site{
+    margin-top: -50px;
+}
+
+.AP2{
+    flex-grow: 1;
+    margin-right: 130px;
+}
+
+Ap{
+    display:flex ;
+}
+
+select {
+    margin: 0;
+    padding-left: 15px;
+    color: #555555;
+    cursor: pointer;
+    position: relative;
+    width: min-content;
+    height: 45px;
+    border-radius: 5px;
+    border: 1px solid #CED4DA;
+}
+
+.Cyber{
+    display: flex;
+    background-color: aliceblue;
+    padding: 10pt;
+    border-radius: 30px;
+    box-shadow: 30px -10px rgba(221,176,200,255);
+}
+
+.Txt{
+    flex-grow: 1;
+    margin-top: 40px;
+}
+
+.Sisr{
+    margin-top: 10%;
+    margin-right: 10%;
+    background-color: aliceblue;
+    padding: 10pt;
+    border-radius: 30px;
+    box-shadow: 30px -10px rgb(3, 61, 61);
+}
+
+.Slam{
+    margin-top: 10%;
+    background-color: aliceblue;
+    padding: 10pt;
+    border-radius: 30px;
+    box-shadow: 30px -10px rgb(3, 61, 61);
+}
+
+.Parcour{
+    margin-top: 20%;
+    display: flex;
+}
+.Gauche{
+    flex-grow: 1;
+}
+.Separation{
+    margin-right: 25%;
+    height: 100%;
+    width: 3px;
+    background-color: black;
+}
+
+
+
+.Vr img{
+    border-radius: 100%;
+    transition: 1s;
+}
+
+.Vr img:hover{
+    width:315px;
+    height:215px;
+    border-radius: 30px;
+}
+
+.Stage img{
+    border-radius: 100%;
+    transition: 1s;
+}
+
+.Stage img:hover{
+    border-radius: 10px;
+}
+
+.AP1 img:hover{
+    border: cornflowerblue solid 3px;
+    transition: 0.2s;
+}
+
+.AP2 img:hover{
+    border: cornflowerblue solid 3px;
+    transition: 0.2s;
+}
+
+.AP3 img:hover{
+    border: cornflowerblue solid 3px;
+    transition: 0.2s;
+}
+.Projet{
+    display: flex;
+}
+
+.Stage{
+    flex-grow: 1;
+    margin-left: 10px;
+}
+
+@media screen and (min-width: 916px) {
+    a input{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 916px) {
+
+    .Acceuil{
+        margin-right: -20%;
+    }
+
+    .Banniere{
+        margin-left: 2%;
+    }
+    .Contenue img{
+        display: none;
+    }
+
+    .Option{
+        flex-direction: column;
+    }
+
+    .Banniere{
+        display: flex;
+        flex-direction: column;
+        padding: 0%;
+        width: fit-content;
+        margin-left: -30px;
+        margin-top: 100px;
+        position: fixed;
+
+    }
+
+     .dis{
+        display: none;
+    }
+}
