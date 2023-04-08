@@ -56,7 +56,7 @@ img {
 }
 
 /* Applique un style de boîte aux éléments avec la classe .Doc, .AP1, .AP2, .Stage, .Stage2 */
-.Doc, .AP1, .AP2, .Stage, .Stage2 {
+.Doc, .AP1, .AP2, .Stage, .Stage2, .Ubuntu {
   border: 1px solid #ddd;
   padding: 10px;
   margin-bottom: 20px;

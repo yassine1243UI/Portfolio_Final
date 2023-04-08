@@ -27,29 +27,26 @@ body{
 .doc{
     padding-top: 100px;
     padding-left: 100px;
+    display: flex;
 }
-.doc h3 {
+h3 {
     font-size: 24px;
     font-weight: bold;
     text-transform: uppercase;
     margin-bottom: 20px;
   }
-  
-  /* Style pour les liens */
-  .doc a {
-    display: block;
-    font-size: 16px;
-    color: #333;
-    text-decoration: none;
-    margin-bottom: 10px;
-  }
-  
-  /* Style pour les liens survolés */
-  .doc a:hover {
-    color: #0077cc;
-    text-decoration: underline;
-  }
 
+.doc a{
+    padding: 10px;
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.AP1{
+    margin-bottom: 20px;
+}
+
+  
   @media screen and (max-width: 916px) {
 
     .Acceuil{
