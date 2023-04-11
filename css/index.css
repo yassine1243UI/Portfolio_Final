@@ -6,15 +6,56 @@ body{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-.Banniere{
-    margin-top: -50px;
-    padding: 5px;
-    background-color: bisque;
+.Banniere {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 10px;
+    font-size: 18px;
     position: fixed;
-    width: 100%;
-    opacity: 0.4;
-    margin-left: -65px;
-}
+    font-weight: bold;
+    margin-top: -20px;
+    width: 90%;
+  }
+  
+  .Banniere a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+  }
+  
+  .Banniere a:hover {
+    text-decoration: underline;
+  }
+  
+  .Banniere img {
+    margin-left: 10px;
+  }
+  
+  
+  @media only screen and (max-width: 600px) {
+    .menu-button {
+      display: block;
+    }
+    
+    .Banniere {
+      position: static;
+      top: auto;
+      display: flex;
+      margin-top: 10px;
+      padding: 0;
+      flex-direction: column;
+      margin: 10%;
+    }
+    
+    .Banniere a {
+      padding: 5px;
+      
+    }
+    
+    
+  }
 
 
 .Contenue{
@@ -30,13 +71,6 @@ body{
     box-shadow: 30px -10px rgba(101,189,249,255);
 }
 
-.Banniere a{
-    padding: 25px;
-}
-
-.Banniere:hover{
-    opacity: 5.0;
-}
 
 .Option{
     display: flex;
@@ -421,26 +455,12 @@ select {
         margin-right: -20%;
     }
 
-    .Banniere{
-        margin-left: 2%;
-    }
     .Contenue img{
         display: none;
     }
 
     .Option{
         flex-direction: column;
-    }
-
-    .Banniere{
-        display: flex;
-        flex-direction: column;
-        padding: 0%;
-        width: fit-content;
-        margin-left: -30px;
-        margin-top: 100px;
-        position: fixed;
-
     }
 
      .dis{
