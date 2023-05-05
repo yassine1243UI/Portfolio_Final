@@ -423,6 +423,7 @@ select {
 .Stage img{
     border-radius: 100%;
     transition: 1s;
+    border: cornflowerblue solid 3px;
 }
 
 .Stage img:hover{
