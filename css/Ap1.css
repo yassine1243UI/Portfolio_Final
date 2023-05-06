@@ -82,4 +82,32 @@ h3 {
     .menu-button {
         display: block;
       }
+
+      .doc{
+        flex-direction: column;
+      }
+
+      .AP1, .Facture, .Kbis, .Devis {
+        margin: 20px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+        text-align: center;
+        width: 250px;
+        margin-left: -20px;
+      }
+
+      input[type=button] {
+        display: block;
+        margin: 0 auto;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        background-color: #009688;
+        color: #fff;
+        font-size: 1.2rem;
+        cursor: pointer;
+      }
+
+   
 }

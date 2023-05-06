@@ -56,61 +56,98 @@ body{
   
 }
 
-
-
-
-
-
-
-/* Applique un style aux éléments de la classe "Documentaion" */
-.Documentaion {
-    display: flex;
-    flex-wrap: wrap;
-  }
-  
-
-/* Applique une marge en haut et en bas pour l'en-tête de la page */
-h3 {
-  margin-top: 40px;
-  margin-bottom: 20px;
+.Doc {
+  margin-bottom: 50px;
 }
 
-/* Centre les images */
-img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-/* Ajoute une marge et un fond gris pour les éléments avec la classe .Documentaion */
-.Documentaion {
-  margin-top: 40px;
-  margin-bottom: 40px;
-  background-color: #f5f5f5;
+.Vr, .AP1, .AP2, .Stage, .Stage2, .AP3, .Ubuntu, .Glpi {
+  margin: 20px;
   padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  width: 400px;
 }
 
-/* Applique un style de boîte aux éléments avec la classe .Doc, .AP1, .AP2, .Stage, .Stage2 */
-.Doc, .AP1, .AP2, .Stage, .Stage2, .Ubuntu {
-  border: 1px solid #ddd;
-  padding: 10px;
-  margin-bottom: 20px;
+.Vr img, .AP1 img, .AP2 img, .Stage img, .Stage2 img, .Ubuntu img, .Glpi img {
+  max-width: 100%;
 }
 
-/* Ajoute une couleur de fond et un style de texte à l'élément avec la classe .Vr */
+.dis {
+  margin: 20px 0;
+}
+
+input[type=button] {
+  display: block;
+  margin: 0 auto;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #009688;
+  color: #fff;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+input[type=button]:hover {
+  background-color: #00796b;
+}
+.Documentaion {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15%;
+}
+
+.Doc {
+  margin: 20px;
+}
+
 .Vr {
-  background-color: #f8f8f8;
-  font-style: italic;
-  font-size: 1.2em;
-  padding: 10px;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-/* Ajoute une couleur de fond et un style de texte à l'élément h4 */
-h4 {
-  background-color: #ddd;
-  padding: 10px;
-  margin-top: 0;
+.Vr img {
+  margin-top: 20px;
 }
+
+.AP1 {
+  margin: 20px;
+}
+
+.AP1 img {
+  margin-bottom: 10px;
+}
+
+.AP2 {
+  margin: 20px;
+}
+
+.Stage {
+  margin: 20px;
+}
+
+.Stage2 {
+  margin: 20px;
+}
+
+.AP3 {
+  margin: 20px;
+}
+
+.Ubuntu {
+  margin: 20px;
+}
+
+.Glpi {
+  margin: 20px;
+}
+
 
 
   
