@@ -61,7 +61,7 @@ body{
   margin-bottom: 50px;
 }
 
-.Vr, .AP1, .AP2, .Stage, .Stage2, .AP3, .Ubuntu, .Glpi {
+.Vr, .AP1, .AP2, .Stage, .Stage2, .AP3, .Ubuntu, .Glpi, .MFA {
   margin: 20px;
   padding: 20px;
   border: 1px solid #ccc;
@@ -71,7 +71,7 @@ body{
   width: 400px;
 }
 
-.Vr img, .AP1 img, .AP2 img, .Stage img, .Stage2 img, .Ubuntu img, .Glpi img {
+.Vr img, .AP1 img, .AP2 img, .Stage img, .Stage2 img, .Ubuntu img, .Glpi img, .MFA img {
   max-width: 100%;
 }
 
@@ -146,6 +146,10 @@ input[type=button]:hover {
 }
 
 .Glpi {
+  margin: 20px;
+}
+
+.MFA {
   margin: 20px;
 }
 
