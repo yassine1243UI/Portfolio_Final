@@ -113,7 +113,47 @@ body{
     margin-bottom: 50px;
 }
 
-.Competence{
+.marquee-rtl {
+    max-width: 30em;                      /* largeur de la fenêtre */
+    margin: 1em auto 2em;
+    border: 10px solid #F0F0FF;
+    overflow: hidden;                     /* masque tout ce qui dépasse */
+    box-shadow: 0 .25em .5em #CCC,inset 0 0 1em .25em #CCC;
+  }
+
+  .marquee-rtl > :first-child {
+    display: inline-block;                /* modèle de boîte en ligne */
+    padding-right: 0em;                   /* un peu d'espace pour la transition */
+    padding-left: 100%;                   /* placement à droite du conteneur */
+    white-space: nowrap;                  /* pas de passage à la ligne */
+    animation: defilement-rtl 15s infinite linear;
+  animation-name: defilement-rtl;       /* référence à la règle @keyframes mise en oeuvre */
+  animation-duration: 10s;              /* valeur à ajuster suivant la longueur du message */
+  animation-iteration-count: infinite;  /* boucle continue */
+  animation-timing-function: linear;    /* pas vraiment utile ici */
+}
+
+@keyframes defilement-rtl {
+    0% {
+      transform: translate3d(0,0,0);      /* position initiale à droite */
+    }
+    100% {
+      transform: translate3d(-100%,0,0);  /* position finale à gauche */
+    }
+  }
+
+
+  .Competence{
+    margin-top: 10%;
+    background-color: aliceblue;
+    padding: 10pt;
+    border-radius: 30px;
+    box-shadow: 30px -10px rgba(0, 255, 175, 1);
+    text-align: center;
+    
+}
+
+/* .Competence{
     display: flex;
     margin-top: 10%;
     background-color: aliceblue;
@@ -131,7 +171,7 @@ body{
     width: 50%;
     margin: 0;
     text-align: left;
-}
+} */
 
  
  h1 {
@@ -230,89 +270,6 @@ body{
        direction: ltr;
     }
  }
- 
-
-.HTML5{
-    margin: 10px;
-    margin-right: 200px;
-    text-align: right;
-    font-size: smaller;
-    border-radius: 30px;
-}
-
-.CSS3{
-    margin: 10px;
-    margin-right: 190px;
-    text-align: right;
-    border-radius: 30px;
-    padding-right: 10px;
-}
-
-.PHP{
-    margin: 10px;
-    margin-right: 190px;
-    text-align: right;
-    border-radius: 30px;
-    padding-right: 10px;
-}
-
-.JS{
-    margin: 10px;
-    margin-right: 190px;
-    text-align: right;
-    border-radius: 30px;
-    padding-right: 10px;
-}
-
-.React{
-    margin: 10px;
-    margin-right: 190px;
-    text-align: right;
-    border-radius: 30px;
-    padding-right: 10px;
-}
-
-.MySql{
-    margin: 10px;
-    margin-right: 190px;
-    text-align: right;
-    border-radius: 30px;
-    padding-right: 10px;
-}
-
-.Python{
-    margin: 10px;
-    margin-right: 220px;
-    text-align: right;
-    border-radius: 30px;
-    padding-right: 10px;
-}
-
-.Git{
-    margin: 10px;
-    margin-right: 220px;
-    text-align: right;
-    border-radius: 30px;
-    padding-right: 10px;
-}
-
-.C{
-    margin: 10px;
-    margin-right: 220px;
-    text-align: right;
-    border-radius: 30px;
-    padding-right: 10px;
-}
-
-.Word{
-
-    margin: 10px;
-    margin-right: 200px;
-    text-align: right;
-    border-radius: 30px;
-    padding-right: 10px;
-
-}
 
 .Ap1{
     margin-top: 10%;
