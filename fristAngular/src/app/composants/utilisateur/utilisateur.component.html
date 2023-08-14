@@ -1,0 +1,27 @@
+<p>Premier utilisateurs</p>
+<p> Description premier utilisateurs</p>
+
+<ul>
+    <li>Nom : {{nom}}</li>
+    <li>Age: {{age}}</li>
+    <li>Hobby : 
+        <ul>
+            <li>Un : {{hobby.hobbyUn}}</li>
+            <li>Deux : {{hobby.hobbyDeux}}</li>
+            <li>Trois : {{hobby.hobbyTrois}}</li>
+        </ul>
+    </li>
+    <li>email : {{email}}</li>
+</ul>
+
+<button (click)="onClick()">Plus d'information</button>
+
+<h1>Editer</h1>
+<form action="">
+    <div><label for="nom">Nom</label><input type="text"></div> <br/>
+    <div><label for="age">Age</label><input type="number"></div><br/>
+    <div><label for="hobbyUn">hobby un :</label><input type="text"></div><br/>
+    <div><label for="hobbyDeux">hobby deux :</label><input type="text"></div><br/>
+    <div><label for="hobbyTrois">Hobby trois :</label><input type="text"></div><br/>
+    <div><label for="email"></label>Email<input type="text"></div><br/>
+</form>
